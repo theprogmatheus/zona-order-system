@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/zona-order-system/static/css/main.5492e073.css",
+    "main.js": "/zona-order-system/static/js/main.2cfb0f64.js",
+    "index.html": "/zona-order-system/index.html",
+    "main.5492e073.css.map": "/zona-order-system/static/css/main.5492e073.css.map",
+    "main.2cfb0f64.js.map": "/zona-order-system/static/js/main.2cfb0f64.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5492e073.css",
+    "static/js/main.2cfb0f64.js"
+  ]
+}
