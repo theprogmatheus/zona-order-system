@@ -95,7 +95,7 @@ function App() {
             }}
           >
 
-            <a href="/" className="auth-screen-brand">
+            <a href="https://theprogmatheus.github.io/zona-order-system/" className="auth-screen-brand">
               <img
                 className="auth-screen-logo"
                 src={logo}
