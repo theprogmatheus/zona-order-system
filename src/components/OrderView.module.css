@@ -1,42 +1,11 @@
-#toPrint {
-
-    display: none;
-
-    text-align: center;
-    text-transform: uppercase;
-
-
-    padding-top: 5px;
-    padding-bottom: 5px;
-
-    font-size: 1em;
-
+.view{
+    background: rgb(167, 0, 0);
+    width: 70%;
+    height: 100vh;
+    overflow: auto;
 }
 
-@media print {
-    div.app {
-        display: none;
-    }
-
-    #toPrint {
-        display: block;
-    }
-}
-
-
-.app {
-    display: flex;
-    flex-direction: row;
-
-    width: 100vw;
-    min-height: 100vh;
-}
-
-.app ::placeholder {
-    text-transform: uppercase;
-}
-
-.auth-screen {
+.authScreen {
     background: rgb(167, 0, 0);
     background-size: cover;
 
@@ -48,13 +17,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 10px;
 }
 
-.auth-screen-form {
-
-    width: 50%;
-    height: 100%;
-
+.authScreenForm {
+    width: 90%;
+    height: 60%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -62,19 +30,14 @@
     justify-content: center;
 }
 
-.auth-screen-brand {
+.authScreenBrand {
     padding: 15px;
     margin-bottom: 15vh;
     text-align: center;
     color: #FFF;
-    text-decoration: none;
-    width: 100%;
-    font-weight: bold;
-    font-size: 1.8em;
 }
 
-.auth-screen-form input,
-textarea {
+.authScreenForm input, textarea {
     width: 100%;
     margin-bottom: 10px;
     padding: 15px;
@@ -84,11 +47,10 @@ textarea {
     outline: none;
     font-size: 1.2em;
     text-align: center;
-    box-sizing: border-box;
     text-transform: uppercase;
 }
 
-.auth-screen-form #submit {
+.authScreenFormSubmit {
     text-transform: uppercase;
     font-weight: bold;
     color: #FFF;
@@ -97,11 +59,9 @@ textarea {
     margin: 0 auto 0 auto;
     cursor: pointer;
     margin-top: 10%;
-    margin-bottom: 10%;
-    padding: 50px;
 }
 
-.auth-screen-form #submit:active {
+.authScreenForm #submit:active {
     outline: none;
     background: rgb(145, 0, 0);
 }
